@@ -147,6 +147,10 @@ body {
     transition: transform 0.3s ease;
 }
 
+.certificate-card {
+    overflow: hidden;
+}
+
 .certificate-card:hover {
     transform: translateY(-4px);
 }
