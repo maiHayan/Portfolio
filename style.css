@@ -121,7 +121,7 @@ body {
 }
 
 /* ===============================
-   Certificates Section
+   Certificates Section 
 ================================ */
 
 #certificates h2 {
@@ -147,18 +147,15 @@ body {
     transition: transform 0.3s ease;
 }
 
-.certificate-card {
-    overflow: hidden;
-}
-
 .certificate-card:hover {
     transform: translateY(-4px);
 }
 
+/* 🔑 THIS FIXES THE IMAGE SIZE ISSUE */
 .certificate-card img {
     width: 100%;
-    max-height: 120px;
-    object-fit: contain;
+    height: 110px;              /* SAME size for all certificates */
+    object-fit: scale-down;    /* prevents oversize images */
     display: block;
     margin: 0 auto 10px;
 }
@@ -168,3 +165,4 @@ body {
     color: #333;
     line-height: 1.4;
 }
+
