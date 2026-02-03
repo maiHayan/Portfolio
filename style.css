@@ -154,7 +154,7 @@ body {
 /* 🔑 THIS FIXES THE IMAGE SIZE ISSUE */
 .certificate-card img {
     width: 100%;
-    max-height: 130px;
+    max-height: 150px;
     object-fit: contain;
     display: block;
     margin: 0 auto 12px;
