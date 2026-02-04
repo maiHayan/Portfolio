@@ -209,7 +209,7 @@ body {
 
 
 /* ===============================
-   Education Section (Fixed Layout)
+   Education Section – Centered Stack
 ================================ */
 
 #education h2 {
@@ -218,27 +218,29 @@ body {
     color: #0b3d91;
 }
 
-.education-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
+.education-stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
 }
 
 .education-rect {
+    width: 100%;
+    max-width: 850px;
     background: #ffffff;
-    padding: 22px;
-    border-radius: 12px;
+    padding: 25px;
+    border-radius: 14px;
     box-shadow: 0 6px 18px rgba(0,0,0,0.08);
     text-align: center;
-    overflow: hidden;
 }
 
 .education-rect img {
     width: 100%;
-    height: 160px;
+    max-height: 220px;
     object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 12px;
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 .education-rect h3 {
@@ -247,12 +249,17 @@ body {
 }
 
 .education-rect h4 {
-    margin-bottom: 8px;
+    margin-bottom: 4px;
     font-weight: 600;
 }
 
-.education-rect p {
-    font-size: 14px;
-    line-height: 1.5;
+.edu-address {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px;
 }
 
+.education-rect p {
+    font-size: 15px;
+    line-height: 1.6;
+}
