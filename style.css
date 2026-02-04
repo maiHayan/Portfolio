@@ -153,8 +153,8 @@ body {
 
 /* 🔑 THIS FIXES THE IMAGE SIZE ISSUE */
 .certificate-card img {
-    width: 90%;
-    height: 3000px;      /* 🔼 visibly larger */
+    width: 100%;
+    height: 300px;      /* 🔼 visibly larger */
     object-fit: contain;
     display: block;
     margin: 0 auto 12px;
