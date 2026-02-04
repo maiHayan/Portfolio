@@ -226,11 +226,11 @@ body {
 /* card style */
 .education-rect {
     width: 100%;
-    max-width: 900px;
-    margin: 0 auto 40px auto;
+    max-width: 780px;   /* smaller but still long */
+    margin: 0 auto 35px auto;
     background: #ffffff;
-    padding: 28px;
-    border-radius: 16px;
+    padding: 22px;
+    border-radius: 14px;
     text-align: center;
     border: 2px solid transparent;
     box-shadow: 0 6px 18px rgba(0,0,0,0.08);
@@ -239,7 +239,7 @@ body {
 
 /* hover effect */
 .education-rect:hover {
-    transform: translateY(-8px);
+    transform: translateY(-6px);
     background-color: #f2f6ff;
     border-color: #2f6fe4;
 }
@@ -247,11 +247,11 @@ body {
 /* institute image – fully visible */
 .education-rect img {
     width: 100%;
-    max-height: 240px;
+    max-height: 280px;   /* taller image */
     object-fit: contain;
     background: #f4f4f4;
     border-radius: 12px;
-    margin-bottom: 18px;
+    margin-bottom: 16px;
 }
 
 /* section label */
