@@ -178,17 +178,21 @@ body {
 }
 
 .resume-btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 12px 24px;
-    background-color: #0b3d91;
-    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    padding: 12px 26px;
+    background-color: #0b3d91; 
+    color: white;
     text-decoration: none;
-    border-radius: 6px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background 0.3s ease;
 }
 
 .resume-btn:hover {
     background-color: #003f9e;
 }
+
+
