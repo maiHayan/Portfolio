@@ -226,10 +226,10 @@ body {
 /* card style */
 .education-rect {
     width: 100%;
-    max-width: 780px;   /* KEEP width same */
+    max-width: 6500px;
     margin: 0 auto 30px auto;
     background: #ffffff;
-    padding: 18px;     /* smaller padding = shorter card */
+    padding: 16px;
     border-radius: 14px;
     text-align: center;
     border: 2px solid transparent;
