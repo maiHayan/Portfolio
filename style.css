@@ -226,16 +226,17 @@ body {
 /* card style */
 .education-rect {
     width: 100%;
-    max-width: 6500px;
-    margin: 0 auto 30px auto;
+    max-width: 650px;   /* ⬅ smaller width */
+    margin: 0 auto 28px auto;
     background: #ffffff;
-    padding: 16px;
-    border-radius: 14px;
+    padding: 16px;     /* ⬅ smaller height */
+    border-radius: 12px;
     text-align: center;
     border: 2px solid transparent;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
     transition: all 0.3s ease;
 }
+
 
 .education-rect img {
     width: 100%;
