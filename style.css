@@ -207,3 +207,51 @@ body {
     transform: translateY(-2px);
 }
 
+
+/* ===============================
+   Education Section
+================================ */
+
+#education h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #0b3d91;
+}
+
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.education-card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.education-card:hover {
+    transform: translateY(-6px);
+}
+
+.education-card img {
+    width: 100%;
+    max-height: 180px;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.education-card h3 {
+    color: #0b3d91;
+    margin: 8px 0;
+}
+
+.education-card p {
+    font-size: 14px;
+    line-height: 1.5;
+}
