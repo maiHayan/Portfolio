@@ -226,7 +226,7 @@ body {
 /* each education card */
 .education-rect {
     width: 100%;
-    max-width: 900px;
+    max-width: 700px;
     margin: 0 auto 40px auto;
     background: #ffffff;
     padding: 28px;
