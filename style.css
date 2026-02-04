@@ -154,10 +154,10 @@ body {
 /* 🔑 THIS FIXES THE IMAGE SIZE ISSUE */
 .certificate-card img {
     width: 100%;
-    height: 300px;      /* 🔼 visibly larger */
+    height: 120px;      /* 🔼 visibly larger */
     object-fit: contain;
     display: block;
-    margin: 0 auto 12px;
+    margin: 0 auto 8px;
 }
 
 .certificate-card p {
