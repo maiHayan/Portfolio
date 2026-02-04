@@ -191,8 +191,9 @@ body {
 
 .resume-btn {
     padding: 12px 28px;
-    background-color: #2f6fe4;   /* lighter blue */
-    color: #ffffff;
+    background: transparent;
+    color: #2f6fe4;
+    border: 2px solid #2f6fe4;
     text-decoration: none;
     border-radius: 8px;
     font-weight: 600;
@@ -201,18 +202,8 @@ body {
 }
 
 .resume-btn:hover {
-    background-color: #1f5bd1;
-    transform: translateY(-2px);
-}
-
-.resume-btn.outline {
-    background: transparent;
-    color: #2f6fe4;
-    border: 2px solid #2f6fe4;
-}
-
-.resume-btn.outline:hover {
     background-color: #2f6fe4;
     color: #ffffff;
+    transform: translateY(-2px);
 }
 
