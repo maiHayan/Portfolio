@@ -163,3 +163,31 @@ body {
     line-height: 1.5;
 }
 
+/* ===============================
+   Resume Section
+================================ */
+
+#resume h2 {
+    text-align: center;
+    color: #0b3d91;
+}
+
+#resume p {
+    text-align: center;
+}
+
+.resume-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 24px;
+    background-color: #0b3d91;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.resume-btn:hover {
+    background-color: #003f9e;
+}
