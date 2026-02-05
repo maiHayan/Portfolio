@@ -166,12 +166,21 @@ body {
 }
 
 /* Buttons inside cards */
+/* Compact buttons inside cards */
 .card-buttons {
-    margin-top: 12px;
+    margin-top: 10px;
     display: flex;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-between;   /* left & right */
+    gap: 8px;
 }
+
+/* Make buttons smaller like skill pills */
+.card-buttons .resume-btn {
+    padding: 5px 12px;
+    font-size: 12px;
+    border-radius: 6px;
+}
+
 
 /* ===============================
    Resume Section
