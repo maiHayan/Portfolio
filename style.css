@@ -420,6 +420,62 @@ body {
 }
 
 
+/* ===============================
+   Contact Section – Matching Card Style
+================================ */
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #0b3d91;
+}
+
+/* Contact card same as other sections */
+.contact-card {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 2px solid #2f6fe4;
+    border-radius: 12px;
+    padding: 25px;
+    background: #ffffff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.contact-card:hover {
+    background: #eaf1ff;
+    transform: translateY(-6px);
+}
+
+/* Form layout */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+/* Inputs */
+.contact-form input,
+.contact-form textarea {
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1.5px solid #c7d9ff;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.25s ease;
+}
+
+/* Input focus effect */
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #2f6fe4;
+    box-shadow: 0 0 0 2px rgba(47,111,228,0.15);
+}
+
+/* Send button uses resume-btn styling already */
+.contact-form button {
+    align-self: center;
+}
 
 
 
