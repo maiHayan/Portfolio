@@ -296,23 +296,22 @@ body {
    Skills Section – Professional Cards
 ================================ */
 #skills {
-  padding: 80px 20px;
+  padding: 50px 15px;
   background: #f8fbff;
 }
 
 .skills-title {
   text-align: center;
-  font-size: 42px;
-  font-weight: bold;
-  margin-bottom: 60px;
+  font-size: 38px;
+  margin-bottom: 40px;
   color: #0a2540;
 }
 
 .skills-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 25px;
-  max-width: 1100px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -320,33 +319,52 @@ body {
   background: white;
   border: 2px solid #3b82f6;
   border-radius: 14px;
-  padding: 25px;
+  padding: 20px;
+  transition: 0.3s ease;
   text-align: center;
-  transition: all 0.3s ease;
-  cursor: pointer;
+}
+
+.skill-card:hover {
+  transform: translateY(-6px);
+  background: #3b82f6;
 }
 
 .skill-card h3 {
-  margin-bottom: 15px;
+  margin-bottom: 14px;
+  font-size: 19px;
   color: #1e40af;
-  font-size: 20px;
+  transition: 0.3s ease;
 }
 
-.skill-card p {
-  margin: 6px 0;
-  font-size: 15px;
-  color: #333;
+/* skill pills */
+.skill-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-/* Hover Effect */
-.skill-card:hover {
-  transform: translateY(-10px) scale(1.05);
-  background: #3b82f6;
-  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.4);
+.skill-list span {
+  background: #e0ecff;
+  color: #1e40af;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  transition: 0.25s ease;
+  cursor: pointer;
 }
 
-.skill-card:hover h3,
-.skill-card:hover p {
+/* individual bump */
+.skill-list span:hover {
+  transform: translateY(-5px) scale(1.08);
+  background: white;
+  color: #2563eb;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* card hover text color */
+.skill-card:hover h3 {
   color: white;
 }
+
 
