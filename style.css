@@ -166,19 +166,36 @@ body {
 }
 
 /* Buttons inside cards */
-/* Compact buttons inside cards */
 .card-buttons {
     margin-top: 10px;
     display: flex;
-    justify-content: space-between;   /* left & right */
-    gap: 8px;
+    justify-content: space-between;
 }
 
-/* Make buttons smaller like skill pills */
+/* Button base style = skill style */
 .card-buttons .resume-btn {
-    padding: 5px 12px;
+    background: #dbe7ff;          /* light blue always */
+    color: #0b3d91;
+    padding: 4px 12px;
     font-size: 12px;
     border-radius: 6px;
+    border: none;
+    font-weight: 500;
+    transition: all 0.25s ease;
+    text-decoration: none;
+}
+
+/* Hover effect like skills */
+.card-buttons .resume-btn:hover {
+    background: #2f6fe4;
+    color: white;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 14px rgba(47,111,228,0.4);
+}
+
+/* Remove outline style difference */
+.card-buttons .outline {
+    border: none;
 }
 
 
