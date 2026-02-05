@@ -305,6 +305,7 @@ body {
   font-size: 38px;
   margin-bottom: 40px;
   color: #0a2540;
+  font-weight: 700;
 }
 
 .skills-container {
@@ -320,8 +321,8 @@ body {
   border: 2px solid #3b82f6;
   border-radius: 14px;
   padding: 20px;
-  transition: 0.3s ease;
   text-align: center;
+  transition: 0.3s ease;
 }
 
 .skill-card:hover {
@@ -336,7 +337,6 @@ body {
   transition: 0.3s ease;
 }
 
-/* skill pills */
 .skill-list {
   display: flex;
   justify-content: center;
@@ -350,11 +350,11 @@ body {
   padding: 6px 14px;
   border-radius: 6px;
   font-size: 13px;
+  font-weight: 500;
   transition: 0.25s ease;
   cursor: pointer;
 }
 
-/* individual bump */
 .skill-list span:hover {
   transform: translateY(-5px) scale(1.08);
   background: white;
@@ -362,9 +362,9 @@ body {
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
-/* card hover text color */
 .skill-card:hover h3 {
   color: white;
 }
+
 
 
