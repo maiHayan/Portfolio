@@ -295,76 +295,79 @@ body {
 /* ===============================
    Skills Section – Professional Cards
 ================================ */
+/* ===============================
+   Skills Section – Compact Fix
+================================ */
+
 #skills {
-  padding: 50px 15px;
+  padding: 25px 10px;   /* ⬅ reduced from 50px */
   background: #f8fbff;
 }
 
 .skills-title {
   text-align: center;
-  font-size: 38px;
-  margin-bottom: 40px;
+  font-size: 32px;      /* ⬅ slightly smaller */
+  margin-bottom: 20px; /* ⬅ reduced from 40px */
   color: #0a2540;
   font-weight: 700;
 }
 
 .skills-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 20px;
-  max-width: 1000px;
+  grid-template-columns: repeat(3, 1fr); /* ⬅ fixed 3 per row (no tall stacking) */
+  gap: 16px;                              /* ⬅ tighter spacing */
+  max-width: 900px;
   margin: auto;
 }
 
 .skill-card {
   background: white;
   border: 2px solid #3b82f6;
-  border-radius: 14px;
-  padding: 20px;
+  border-radius: 12px;
+  padding: 14px;        /* ⬅ reduced padding */
   text-align: center;
   transition: 0.3s ease;
 }
 
-.skill-card:hover {
-  transform: translateY(-6px);
-  background: #3b82f6;
-}
-
 .skill-card h3 {
-  margin-bottom: 14px;
-  font-size: 19px;
+  margin-bottom: 10px;
+  font-size: 17px;      /* ⬅ smaller subtitle */
   color: #1e40af;
-  transition: 0.3s ease;
 }
 
 .skill-list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 6px;             /* ⬅ tighter pills */
 }
 
 .skill-list span {
   background: #e0ecff;
   color: #1e40af;
-  padding: 6px 14px;
+  padding: 4px 10px;   /* ⬅ smaller rectangles */
   border-radius: 6px;
-  font-size: 13px;
-  font-weight: 500;
+  font-size: 12px;
   transition: 0.25s ease;
   cursor: pointer;
 }
 
-.skill-list span:hover {
-  transform: translateY(-5px) scale(1.08);
-  background: white;
-  color: #2563eb;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+/* Hover stays smooth */
+.skill-card:hover {
+  transform: translateY(-4px);
+  background: #3b82f6;
 }
 
 .skill-card:hover h3 {
   color: white;
 }
+
+.skill-list span:hover {
+  transform: translateY(-3px) scale(1.05);
+  background: white;
+  color: #2563eb;
+}
+
 
 
 
