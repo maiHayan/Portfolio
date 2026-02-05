@@ -295,77 +295,53 @@ body {
 /* ===============================
    Skills Section – Professional Cards
 ================================ */
-/* ===============================
-   Skills Section – Compact Fix
-================================ */
-
 #skills {
-  padding: 25px 10px;   /* ⬅ reduced from 50px */
-  background: #f8fbff;
+  text-align: center;
 }
 
 .skills-title {
-  text-align: center;
-  font-size: 32px;      /* ⬅ slightly smaller */
-  margin-bottom: 20px; /* ⬅ reduced from 40px */
-  color: #0a2540;
-  font-weight: 700;
+  color: #0b3d91;
+  margin-bottom: 25px;
 }
 
 .skills-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* ⬅ fixed 3 per row (no tall stacking) */
-  gap: 16px;                              /* ⬅ tighter spacing */
-  max-width: 900px;
-  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
 }
 
 .skill-card {
-  background: white;
-  border: 2px solid #3b82f6;
+  background: #ffffff;
   border-radius: 12px;
-  padding: 14px;        /* ⬅ reduced padding */
-  text-align: center;
-  transition: 0.3s ease;
+  padding: 15px;
+  border: 2px solid #2f6fe4;
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-6px);
+  background: #f2f6ff;
 }
 
 .skill-card h3 {
+  color: #0b3d91;
   margin-bottom: 10px;
-  font-size: 17px;      /* ⬅ smaller subtitle */
-  color: #1e40af;
+  font-size: 17px;
 }
 
 .skill-list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 6px;             /* ⬅ tighter pills */
+  gap: 6px;
 }
 
 .skill-list span {
   background: #e0ecff;
-  color: #1e40af;
-  padding: 4px 10px;   /* ⬅ smaller rectangles */
+  color: #0b3d91;
+  padding: 4px 10px;
   border-radius: 6px;
   font-size: 12px;
-  transition: 0.25s ease;
-  cursor: pointer;
-}
-
-/* Hover stays smooth */
-.skill-card:hover {
-  transform: translateY(-4px);
-  background: #3b82f6;
-}
-
-.skill-card:hover h3 {
-  color: white;
-}
-
-.skill-list span:hover {
-  transform: translateY(-3px) scale(1.05);
-  background: white;
-  color: #2563eb;
 }
 
 
