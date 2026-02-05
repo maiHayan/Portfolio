@@ -120,6 +120,17 @@ body {
     line-height: 1.4;
 }
 
+/* Add blue outline + hover color like Skills */
+.achievement-card {
+    border: 2px solid #2f6fe4;
+}
+
+.achievement-card:hover {
+    background: #eaf1ff;
+}
+
+
+
 /* ===============================
    Certificates Section 
 ================================ */
@@ -162,6 +173,17 @@ body {
     font-size: 15px;
     line-height: 1.5;
 }
+
+/* Add blue outline like Skills */
+.certificate-card {
+    border: 2px solid #2f6fe4;
+}
+
+/* Add blue hover background */
+.certificate-card:hover {
+    background: #eaf1ff;
+}
+
 
 /* ===============================
    Resume Section
@@ -248,6 +270,10 @@ body {
 }
 
 /* hover effect */
+.education-rect {
+    border: 2px solid #2f6fe4;
+}
+
 .education-rect:hover {
     transform: translateY(-6px);
     background-color: #f2f6ff;
@@ -295,9 +321,7 @@ body {
 /* ===============================
    Skills Section – Professional Cards
 ================================ */
-/* ===============================
-   Skills Section – Animated & Professional
-================================ */
+
 
 #skills h2 {
     text-align: center;
