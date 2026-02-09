@@ -351,8 +351,14 @@ body {
 
 
 /* ===============================
-   Projects Section – Education Style Cards
+   Projects Section
 ================================ */
+
+#projects h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #0b3d91;
+}
 
 .project-rect {
     width: 100%;
