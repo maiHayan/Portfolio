@@ -65,16 +65,22 @@ body {
     text-align: center;
 }
 
-.social-links a {
-    margin-right: 15px;
-    text-decoration: none;
-    color: #0b3d91;
-    font-weight: bold;
+.social-links {
+    text-align: center;
+    margin-top: 12px;
 }
 
-.social-links a:hover {
-    text-decoration: underline;
+/* spacing between pills */
+.social-links .resume-btn {
+    margin: 6px;
 }
+
+/* phone pill spacing */
+.phone-number {
+    margin-top: 12px;
+    text-align: center;
+}
+
 
 .phone-number {
     margin-top: 10px;
@@ -363,7 +369,7 @@ body {
 }
 
 /* ===============================
-   Education Certificate Pills
+   Education Pills – SAME as Resume Buttons
 ================================ */
 
 .edu-pills {
@@ -373,36 +379,24 @@ body {
     margin-top: 14px;
 }
 
-/* pill style */
 .edu-pill {
-    padding: 8px 18px;
-    border-radius: 30px;
-    border: 2px solid #2f6fe4;
-    color: #2f6fe4;
-    font-size: 14px;
-    font-weight: 600;
+    background: #dbe7ff;
+    color: #0b3d91;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    border: none;
     text-decoration: none;
-    transition: all 0.3s ease;
+    transition: all 0.25s ease;
+    cursor: pointer;
 }
 
-/* hover animation */
 .edu-pill:hover {
-    background-color: #2f6fe4;
+    background: #2f6fe4;
     color: white;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(47, 111, 228, 0.3);
-}
-
-/* mobile friendly */
-@media (max-width: 500px) {
-    .edu-pills {
-        flex-direction: column;
-    }
-
-    .edu-pill {
-        width: 70%;
-        text-align: center;
-    }
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 14px rgba(47,111,228,0.4);
 }
 
 
