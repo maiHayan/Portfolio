@@ -60,27 +60,23 @@ body {
         p {
             line-height: 1.6;
         }
-
-.social-links {
-    text-align: center;
-}
-
 .social-links {
     text-align: center;
     margin-top: 12px;
 }
 
-/* spacing between pills */
-.social-links .resume-btn {
-    margin: 6px;
+.social-links a {
+    margin-right: 15px;
+    text-decoration: none;   /* no underline normally */
+    color: #0b3d91;
+    font-weight: bold;
+    transition: 0.2s ease;
 }
 
-/* phone pill spacing */
-.phone-number {
-    margin-top: 12px;
-    text-align: center;
+/* underline only on hover */
+.social-links a:hover {
+    text-decoration: underline;
 }
-
 
 .phone-number {
     margin-top: 10px;
@@ -88,6 +84,7 @@ body {
     color: #0b3d91;
     text-align: center;
 }
+
 
 
 
