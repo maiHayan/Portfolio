@@ -477,6 +477,73 @@ body {
     align-self: center;
 }
 
+/* ===============================
+   Projects Section – Professional Cards
+================================ */
+
+#projects h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #0b3d91;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+/* Project card base */
+.project-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 18px;
+    text-align: center;
+    border: 2px solid #2f6fe4;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* Hover animation */
+.project-card:hover {
+    transform: translateY(-6px);
+    background: #eaf1ff;
+}
+
+/* Project image */
+.project-card img {
+    width: 100%;
+    max-height: 160px;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    background: #f4f4f4;
+}
+
+/* Project title */
+.project-card h3 {
+    color: #0b3d91;
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+/* Project description */
+.project-card p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Button alignment (reuse existing pill buttons) */
+.project-card .card-buttons {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+}
 
 
 
