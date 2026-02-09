@@ -61,16 +61,20 @@ body {
             line-height: 1.6;
         }
 
-        .social-links a {
-            margin-right: 15px;
-            text-decoration: none;
-            color: #0b3d91;
-            font-weight: bold;
-        }
+ .social-links {
+    text-align: center;
+}
 
-        .social-links a:hover {
-            text-decoration: underline;
-        }
+.social-links a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #0b3d91;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
 
 .phone-number {
     margin-top: 10px;
@@ -78,6 +82,7 @@ body {
     color: #0b3d91;
     text-align: center;
 }
+
 
 
 /* ===============================
