@@ -362,6 +362,48 @@ body {
     color: #333;
 }
 
+/* ===============================
+   Education Certificate Pills
+================================ */
+
+.edu-pills {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 14px;
+}
+
+/* pill style */
+.edu-pill {
+    padding: 8px 18px;
+    border-radius: 30px;
+    border: 2px solid #2f6fe4;
+    color: #2f6fe4;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* hover animation */
+.edu-pill:hover {
+    background-color: #2f6fe4;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(47, 111, 228, 0.3);
+}
+
+/* mobile friendly */
+@media (max-width: 500px) {
+    .edu-pills {
+        flex-direction: column;
+    }
+
+    .edu-pill {
+        width: 70%;
+        text-align: center;
+    }
+}
 
 
 /* ===============================
