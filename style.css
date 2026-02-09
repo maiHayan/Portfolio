@@ -72,6 +72,14 @@ body {
             text-decoration: underline;
         }
 
+.phone-number {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #0b3d91;
+    text-align: center;
+}
+
+
 /* ===============================
    Achievements Section
 ================================ */
