@@ -3,10 +3,13 @@ body {
     background-color: #9fa1a3;
     color: #333;
     margin: 0;
-    padding-top: 90px; /* space for fixed navbar */
+    padding-top: 80px; /* space for fixed navbar */
 }
 
-/* Fixed Navbar */
+/* ===============================
+   Fixed Navbar
+================================ */
+
 .navbar {
     position: fixed;
     top: 0;
@@ -20,14 +23,8 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
-}
 
-/* Header (not fixed anymore) */
-header {
-    background-color: #0b3d91;
-    color: white;
-    padding: 40px 20px;
-    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
 }
 
 .navbar a {
@@ -36,13 +33,41 @@ header {
     font-weight: bold;
     background-color: #0057e7;
     padding: 8px 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+    border-radius: 6px;
+    transition: all 0.3s ease;
 }
 
 .navbar a:hover {
     background-color: #003f9e;
+    transform: translateY(-2px);
 }
+
+/* ===============================
+   Header
+================================ */
+
+header {
+    background-color: #0b3d91;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+header p {
+    margin-top: 15px;
+    font-size: 1.3rem;
+    color: #e0e0e0;
+}
+
+/* ===============================
+   Profile Image
+================================ */
 
 .profile-img {
     width: 150px;
@@ -52,6 +77,10 @@ header {
     margin-top: -75px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
+
+/* ===============================
+   Containers
+================================ */
 
 .container {
     max-width: 800px;
@@ -70,6 +99,10 @@ p {
     line-height: 1.6;
 }
 
+/* ===============================
+   Social Links
+================================ */
+
 .social-links {
     text-align: center;
     margin-top: 12px;
@@ -87,13 +120,16 @@ p {
     text-decoration: underline;
 }
 
+/* ===============================
+   Phone Number
+================================ */
+
 .phone-number {
     margin-top: 10px;
     font-weight: bold;
     color: #0b3d91;
     text-align: center;
 }
-
 
 
 
